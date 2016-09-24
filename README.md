@@ -1,2 +1,5 @@
 # Golden_Apple_Tree
-황금 사과가 열리는 나무
+There is a golen apple tree.
+If BBOM study hard, it will be grown up.
+If not, the tree getting sick and dead.
+To get the golden apples, I will study hardly!
