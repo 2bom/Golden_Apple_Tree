@@ -18,6 +18,31 @@ ex)
 */
 
 
+
+/*
+ // Difference '+=' operator between '=,+'.
+
+ ex)
+    var temp1 = "";
+    temp1 += (1 % 2) === 0; // return temp1 = "false"(string);
+    temp1 += (2 % 2) === 0; // return temp1 = "falsetrue"(string);
+
+    var temp2 = "";
+    temp2 = temp2 + (1 % 2) === 0; // return temp2 = false(boolean);
+                                   // Because, "" + 1 === 0 > "1" === 0 > false(boolean); return temp2 = false;
+    temp2 = temp2 + (2 % 2) === 0; // return temp2 = true(boolean);
+                                   // Because, false + 0 === 0 > 0 === 0 > true(boolean); return temp2 = true;
+                                   // ** false + 0 === 0. this is specific result in javascript. Truthy and falsy values's operating are a little weird.
+
+    // conclusion : += and =,+ is not always exact same operation.
+
+    // variable += someConditions;
+    // This operation means comeConditions operating first.
+    // And after that plus previous variable in the left side of the operated someCondition result.
+*/
+
+
+
 /*
  // What is parameters and argument and argument objects.
 
@@ -34,10 +59,11 @@ ex)
 */
 
 
+
 /*
  // What is prototype, prototype chaining.
 
  ex)
 
 
- */
+*/
