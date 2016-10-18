@@ -1,5 +1,6 @@
 [출처] https://gist.github.com/ihoneymon/652be052a0727ad59601
 =====================
+updated by Bomin-Lee
 
 [공통] 마크다운 markdown 작성법
 ======================
@@ -194,14 +195,14 @@ Link: [Google](https://google.com, "google link")
 _single underscores_
 **double asterisks**
 __double underscores__
-++underline++
+<u>underline</u>
 ~~cancelline~~
 ```
 *single asterisks*
 _single underscores_
 **double asterisks**
 __double underscores__
-++underline++
+<u>underline</u>
 ~~cancelline~~
 
 ## 2.8. 이미지
@@ -212,7 +213,10 @@ __double underscores__
 ![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0)
 ![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0 "RubberDuck")
 
-사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
+* 사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
+* 상대경로는 먹히지 않는다. 따라서 파일로 삽입하려면 온라인에 올린 후 URL을 따와야 한다.
+자주 사용하게 될 Github 같은 경우 다음과 같은 형식으로 파일경로가 지정된다는 것을 참고한다.
+    - 'https://github.com/Bomin-Lee/Golden_Apple_Tree/blob/master/goldenApple/markdown_01.png'
 
 ****
 # 3. 마크다운 사용기
