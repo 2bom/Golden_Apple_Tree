@@ -216,7 +216,7 @@ __double underscores__
 * 사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
 * 상대경로는 먹히지 않는다. 따라서 파일로 삽입하려면 온라인에 올린 후 URL을 따와야 한다.
 자주 사용하게 될 Github 같은 경우 다음과 같은 형식으로 파일경로가 지정된다는 것을 참고한다.
-    - 'https://github.com/Bomin-Lee/Golden_Apple_Tree/blob/master/goldenApple/markdown_01.png'
+    - 'https://github.com/Bomin-Lee/Golden_Apple_Tree/blob/master/goldenApple/images/markdown_01.png'
 
 ****
 # 3. 마크다운 사용기
@@ -241,3 +241,43 @@ View 영역의 항목을 그대로 붙여넣거나 HTML 내보내기 등으로 �
 * [John gruber 마크다운 번역](http://nolboo.github.io/blog/2013/09/07/john-gruber-markdown/)
 * [깃허브 취향의 마크다운 번역](http://nolboo.github.io/blog/2014/03/25/github-flavored-markdown/)
 * [허니몬의 마크다운 작성법](http://www.slideshare.net/ihoneymon/ss-40575068)
+
+
+
+## Tables
+
+
+Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+> ---- / :---- = 왼쪽 정렬
+
+> :----: = 가운데 정렬
+
+> ----: = 오른쪽 정렬
+
+
+The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+Colons can be used to align columns.
+
+Tables	Are	Cool
+col 3 is	right-aligned	$1600
+col 2 is	centered	$12
+zebra stripes	are neat	$1
+The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown  |	Less  |	Pretty
+Still  |	renders  |	nicely
+1  |	2  |	3

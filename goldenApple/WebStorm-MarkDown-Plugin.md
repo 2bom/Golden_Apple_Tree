@@ -16,7 +16,7 @@ Because I just want to learn markdown grammar a little easier. the plugin seems 
 <code>File > Setting > Plugin</code>
 3. You have to searching the plugin installed already.
 If the result is nothing, you click the button <code>Install JetBrains Plugin...</code> or  <code>Browse repositories...</code> and search again.
-![plugin](https://github.com/Bomin-Lee/Golden_Apple_Tree/blob/master/goldenApple/markdown_01.png)
+![plugin](https://github.com/Bomin-Lee/Golden_Apple_Tree/blob/master/goldenApple/images/markdown_01.png)
 4. And click install button.
 5. Wait couple of minutes for installing... and done!
 6. Should be restart webstorm.
@@ -24,4 +24,4 @@ If the result is nothing, you click the button <code>Install JetBrains Plugin...
 ## Use plugin.
 1. You could see the new panel <code>Gfm Preview</code> in the bottom of the editor.
 2. Splitting the window is much better way to using. like this.
-![Cfm Preview](https://github.com/Bomin-Lee/Golden_Apple_Tree/blob/master/goldenApple/markdown_02.png)
+![Cfm Preview](https://github.com/Bomin-Lee/Golden_Apple_Tree/blob/master/goldenApple/images/markdown_02.png)
