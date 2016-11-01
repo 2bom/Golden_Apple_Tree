@@ -49,9 +49,9 @@ var re = new RegExp("ab+c");
 | exec      | 일치하는 string 찾음. 있으면 array 반환, 없으면 null 반환.            | RegExp method |
 | test      | 일치하는 string 있는지 없는지 확인. 있으면 true, 없으면 false 반환.     | RegExp method |
 | match     | 일치하는 string 찾음. 있으면 array, 없으면 null 반환.         | String method |
-| search    | 일치하는 string 있는지 없는지 확인. 있으면 일치는 값의 index반환, 없으면 -1.| String method |
+| search    | 일치하는 string 있는지 없는지 확인. 있으면 일치하는 값의 index반환, 없으면 -1.| String method |
 | replace   | 일치하는 string을 replacement substring으로 변환 | String method |
-| split     | striing을 break하여 array of substrings로 변환. | String method |
+| split     | string을 break하여 array of substrings로 변환. | String method |
 
 
 ### RegExp methods usage.
