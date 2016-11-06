@@ -52,3 +52,5 @@
 * **F2** : Navigate to next highlighted error.
 
 * **F3 / shift + F3** : Search for next/ previous occurrence.
+
+* **Alt + Insert** : create new file.
