@@ -13,7 +13,7 @@ function adder(a, b){
   //함수를 완성하세요
   
   if (a !== b){
-    for (var i = (b-a > 0? a : b); i < (b-a > 0? b : a) + 1; i++) {
+    for (var i = (b-a > 0? a : b); i <= (b-a > 0? b : a); i++) {
       result = result + i;
     }
   } else {
